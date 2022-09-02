@@ -4,8 +4,9 @@ Provides a zoom border that allows internal elements to be zoomed and panned.
 It's a very basic single control library, the original code was stolen from the following stackoverflow answer [Here](https://stackoverflow.com/a/6782715)
 
 
-#Install
+# Install
 Install via nuget using the following cmd line
+
 ` Install-Package spicermicer.ZoomBorder -Version 1.0.0 `
 
 # Example Usage

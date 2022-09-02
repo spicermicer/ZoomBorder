@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ZoomBorder</Title>
+    <Description>Provides a zoomable border</Description>
+    <Copyright>Apache 2</Copyright>
+    <PackageProjectUrl>https://github.com/spicermicer/ZoomBorder</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/spicermicer/ZoomBorder</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Zoom; Border; Pan; WPF; </PackageTags>
+    <PackageId>Spicermicer.$(AssemblyName)</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
